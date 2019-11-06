@@ -4,7 +4,6 @@
 get_header(); ?>
 
 <?php
-<h1> hello </h1>
 get_template_part('/template-parts/content','carosel');
 
 
