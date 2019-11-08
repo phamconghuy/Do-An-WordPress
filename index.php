@@ -16,7 +16,7 @@ get_template_part('/template-parts/content','Top');
 get_template_part('/template-parts/content','Buttom');
 ?>
 
-
+<h1>thay doi</h1>
 <?php
 get_footer();
 
