@@ -25,8 +25,8 @@
                                 'tax_query'      => array(
                                     array(
                                         'taxonomy' => 'product_cat',
-                                        'field'    => 'id',
-                                        'terms'    => '22'
+                                        'field'    => 'slug',
+                                        'terms'    => 'danh-muc-1'
                                     )
                                 ),
                                 'orderby'        => 'ID',
