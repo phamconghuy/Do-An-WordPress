@@ -3,9 +3,7 @@
 <?php
     if(get_the_title() == "page-cart")
     {
-        ?>
-        <h1>hello</h1>
-        <?php
+        get_template_part('/template-parts/content','MyCart');
     }
 ?>
 <?php get_footer(); ?>
