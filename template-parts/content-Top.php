@@ -33,6 +33,8 @@
                                 'order'          => 'ASC',
                                 'posts_per_page' => '8'));
                             ?>
+
+                            
                             <?php while ($vnkings->have_posts()) : $vnkings->the_post(); ?>
                                 <li>
                                     <figure>
