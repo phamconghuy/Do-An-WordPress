@@ -25,14 +25,16 @@
                                 'tax_query'      => array(
                                     array(
                                         'taxonomy' => 'product_cat',
-                                        'field'    => 'id',
-                                        'terms'    => '22'
+                                        'field'    => 'slug',
+                                        'terms'    => 'danh-muc-1'
                                     )
                                 ),
                                 'orderby'        => 'ID',
                                 'order'          => 'ASC',
                                 'posts_per_page' => '8'));
                             ?>
+
+                            
                             <?php while ($vnkings->have_posts()) : $vnkings->the_post(); ?>
                                 <li>
                                     <figure>
